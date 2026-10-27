@@ -1,47 +1,99 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>About Me</title>
-
-  
+  <title>Colwyn Gilbert | Personal Website</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  
-  <h1>Hi, I'm Colwyn Gilbert</h1>
-  <p>Welcome to my website</p>
+  <!-- Navigation menu -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
- 
-  <h2>About Me</h2>
-  <p>
-     Hi, I'm Colwyn Gilbert, a student at TAMCC who loves music, gaming, and hanging out with friends.
-  </p>
+  <main>
 
-  
-  <h2>Things I Like</h2>
-  <ul>
-    <li>Music</li>
-    <li>Sports</li>
-    <li>Video games</li>
-    <li>Hanging out with friends</li>
-  </ul>
+    <!-- HOME -->
+    <section id="home">
+      <h1>Hi, I'm Colwyn Gilbert</h1>
+      <p>Welcome to my website</p>
+    </section>
 
-  
-  <h2>My Pictures</h2>
-  <div class="photos">
-    <img src="https://news.miami.edu/_assets/images-stories/2025/02/how-to-spot-ai-images-hero-940x529.jpg" alt="Photo 1">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcRup8wRXm4QTSNOmh9S2bxFf1QtkkQQJ9_E0-Y8b-SxuG1W7B8RtiOOle&s=10" alt="Photo 2">
-    <img src="https://img.magnific.com/free-photo/close-up-man-repairing-computer-chips_23-2150880997.jpg?semt=ais_hybrid&w=740&q=80" alt="Photo 3">
-  </div>
+    <!-- ABOUT -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Hi, I'm Colwyn Gilbert, a student at TAMCC who loves music, gaming, and hanging out with friends.
+      </p>
 
-  <h2>Contact Me</h2>
-  <p>Email: colwyngilbert@example.com</p>
+      <h3>Things I Like</h3>
+      <ul>
+        <li>Music</li>
+        <li>Sports</li>
+        <li>Video games</li>
+        <li>Hanging out with friends</li>
+      </ul>
+    </section>
 
-  <p class="footer">Thanks for visiting!</p>
+    <!-- PORTFOLIO -->
+    <section id="portfolio">
+      <h2>Portfolio</h2>
+
+      <h3>My Skills</h3>
+      <table>
+        <tr>
+          <th>Skill</th>
+          <th>Level</th>
+        </tr>
+        <tr>
+          <td>HTML</td>
+          <td>Beginner</td>
+        </tr>
+        <tr>
+          <td>CSS</td>
+          <td>Beginner</td>
+        </tr>
+        <tr>
+          <td>Teamwork</td>
+          <td>Good</td>
+        </tr>
+      </table>
+
+      <h3>My Pictures</h3>
+      <div class="photos">
+        <img src="https://news.miami.edu/_assets/images-stories/2025/02/how-to-spot-ai-images-hero-940x529.jpg" alt="Photo 1">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcRup8wRXm4QTSNOmh9S2bxFf1QtkkQQJ9_E0-Y8b-SxuG1W7B8RtiOOle&s=10" alt="Photo 2">
+        <img src="https://img.magnific.com/free-photo/close-up-man-repairing-computer-chips_23-2150880997.jpg?semt=ais_hybrid&w=740&q=80" alt="Photo 3">
+      </div>
+
+      <h3>My Video</h3>
+      <video width="320" height="240" controls>
+        <source src="videos/my-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>Email: colwyngilbert@example.com</p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Thanks for visiting!</p>
+  </footer>
 
 </body>
 </html>

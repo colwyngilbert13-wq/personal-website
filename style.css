@@ -2,10 +2,18 @@ body {
   font-family: Arial, sans-serif;
   background-color: #eef3f5;
   color: #222222;
+  margin: 0;
+  line-height: 1.6;
+}
+
+main {
   max-width: 700px;
   margin: 0 auto;
   padding: 20px;
-  line-height: 1.6;
+}
+
+section {
+  padding: 30px 0;
 }
 
 h1 {
@@ -15,18 +23,57 @@ h1 {
 
 h2 {
   color: #0f766e;
-  margin-top: 40px;
 }
 
-
-
-.profile {
-  width: 180px;
-  height: 180px;
-  object-fit: cover;
-  border-radius: 50%;
+img {
+  max-width: 100%;
+  border-radius: 10px;
 }
 
+/* ----- Navigation menu ----- */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background-color: #333333;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav a {
+  display: inline-block;
+  padding: 15px 10px;
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  color: #5eead4;
+}
+
+/* ----- Table ----- */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+th, td {
+  border: 1px solid #cccccc;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #0f766e;
+  color: white;
+}
+
+/* ----- Pictures ----- */
 .photos {
   display: flex;
   gap: 10px;
@@ -36,8 +83,10 @@ h2 {
   width: 33%;
 }
 
-.footer {
-  margin-top: 50px;
+/* ----- Footer ----- */
+footer {
+  background-color: #333333;
+  color: white;
   text-align: center;
-  color: gray;
+  padding: 15px;
 }
