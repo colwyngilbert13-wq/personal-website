@@ -30,7 +30,7 @@ img {
   border-radius: 10px;
 }
 
-/* ----- Navigation menu ----- */
+
 nav ul {
   list-style-type: none;
   padding: 0;
@@ -55,7 +55,7 @@ nav a:hover {
   color: #5eead4;
 }
 
-/* ----- Table ----- */
+
 table {
   width: 100%;
   border-collapse: collapse;
@@ -73,7 +73,7 @@ th {
   color: white;
 }
 
-/* ----- Pictures ----- */
+
 .photos {
   display: flex;
   gap: 10px;
@@ -83,7 +83,7 @@ th {
   width: 33%;
 }
 
-/* ----- Footer ----- */
+
 footer {
   background-color: #333333;
   color: white;
